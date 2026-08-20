@@ -117,7 +117,7 @@ function doubleOddNumbers(arr) {
     });
 }
 
-// for automated testing
+// for automated testing - learning on boot.dev and not sure if needed
 module.exports = {
   doubleValues,
   onlyEvenValues,
