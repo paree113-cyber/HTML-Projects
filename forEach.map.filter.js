@@ -117,6 +117,7 @@ function doubleOddNumbers(arr) {
     });
 }
 
+// for automated testing
 module.exports = {
   doubleValues,
   onlyEvenValues,
