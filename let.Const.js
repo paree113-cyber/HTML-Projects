@@ -12,4 +12,4 @@ What is the difference between let and const?
 
 - What is hoisting?
     
-    Variables moved/“hoisted” to the top of the scope they are declared in, accessing the variable name and it’s undefined value before being used later. Function declarations can be invoked “before” they are defined also
+    Variables moved or “hoisted” to the top of the scope they are declared in, accessing the variable name and it’s undefined value before being used later. Function declarations can be invoked “before” they are defined also
