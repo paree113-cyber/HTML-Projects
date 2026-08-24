@@ -102,8 +102,8 @@ arr[1] = temp;
 
 // Race results
 
-raceResults(['Heather', 'Devon', 'Josh', 'Spencer', 'Ashley'])
+raceResults(['Tom', 'Margaret', 'Allison', 'David', 'Pierre'])
 
-// {first: "Heather", second: "Devon", third: "Josh", rest: ["Spencer", "Ashley"]}
+// {first: "Tom", second: "Margaret", third: "Allison", rest: ["David", "Pierre"]}
 
 const raceResults = ([first, second, third, ...rest]) => ({first, second, third, rest})
