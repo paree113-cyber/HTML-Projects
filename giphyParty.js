@@ -30,8 +30,9 @@
 
 // Index
 
-// working API key //
-const giphyApiKey = "0f8d3ad404ea481fb4319486314969e0";
+// working API key - I had to use the initial one sent as the one I generated from spoonacular would not work on a public profile for you to view (my private API = "0f8d3ad404ea481fb4319486314969e0";) profile: https://vermillion-malasada-a7ba5a.netlify.app/ //
+
+const giphyApiKey = "MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym";
 
 const searchUrl = "https://api.giphy.com/v1/gifs/search";
 
