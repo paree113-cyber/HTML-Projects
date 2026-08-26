@@ -6,19 +6,20 @@ fundamentals through full-stack applications.
 ## A Note on Structure
 
 The projects in this repo vary in how they're organized, and that's intentional.
-Most of the earlier work was small, focused exercises built to practice specific
-JavaScript and web concepts, one topic at a time. Those didn't require a full
-application stack, so they were committed as standalone script files (mixed-media
-code) rather than fully scaffolded projects.
+Earlier projects were smaller, single-purpose exercises focused on specific
+concepts (HTML, CSS, DOM manipulation, individual JavaScript topics), so they
+were committed as loose or mixed-media files rather than full application
+scaffolds. They didn't require the full stack that the later projects use.
 
-The later projects are complete full-stack applications with a proper structure:
-an Express backend, organized frontend scripts, package management, and API
-integration.
+I was also still learning to use GitHub online through this period, so some of the
+earlier commits and folder layouts look a little clunky. I've left them as they
+were rather than reorganizing after the fact, since they reflect how my workflow
+and understanding grew over time.
 
-I was also still learning to use GitHub during this period, so some of the earlier
-commits and folder layouts look a little clunky. I've left them as they were rather
-than cleaning them up after the fact, since they reflect how my workflow and
-understanding grew over time.
+The last project (the Checkers game) is a full-stack application with a proper
+structure — an Express back-end, organized front-end scripts, package management,
+and API integration. Getting it organized taught me a lot about project structure
+and moving a full folder layout into GitHub.
 
 ## Full-Stack Projects (own backend)
 
@@ -37,7 +38,7 @@ understanding grew over time.
 
 ## Node / CLI Exercises
 
-- **Node.js** — Node file-system and command-line practice.
+- **Node** — Node file-system and command-line practice (a `cat`-style utility).
 
 ## JavaScript Fundamentals & Exercises
 
@@ -59,5 +60,6 @@ These are focused, single-concept practice files:
 ## Running
 
 Full-stack projects (like Checkers) have their own setup instructions in their
-folder's README — typically `npm install` then `npm start`. The fundamentals
-files are standalone scripts you can run with `node <filename>` or read directly.
+folder's README — typically `npm install` then `npm start`. Static projects can
+be opened directly in a browser, and the fundamentals files can be run with
+`node <filename>`.
