@@ -1,13 +1,16 @@
 # Checkers
 
-## Using It
-Play by selecting your piece and clicking on the tile you want to move to. Click [here](http://www.itsyourturn.com/t_helptopic2030.html) to learn how to play checkers. Jumping when available is enforced.
+An interactive 2D Checkers game built with JavaScript, DOM manipulation, Express, and a Gemini-powered CPU opponent. Includes piece selection, move validation, turn switching, kinging, save/resume, and easy/hard CPU modes.
 
-## Code
-The code supports all the features of checkers including kingship and double/triple/quadruple jumping. The Board object controls the board and therefore the game. The pieces and tiles instances are used in the game for checking whether a piece can be moved, moving a piece, deleting a piece, checking whether tile is in range, and much more. The script is fully commented and original.
+Made by Heather K, Aug 2026.
 
-If you find any bugs, please make a Pull Request or an Issue.
+## Running It
+1. Install dependencies: `npm install`
+2. Start the server: `npm start`
+3. Open http://localhost:3002/checkers/2d
 
+Play by clicking one of your pieces to select it, then clicking the square you want to move to. Jumping is enforced when available. Toggle CPU mode and difficulty (easy/hard) in the sidebar.
 
-## Live Demo
-[DEMO](http://codethejason.github.io/checkers/index.html)
+## Notes
+- Hard mode uses the Gemini API. Set `GEMINI_API_KEY` in a `.env` file (not committed).
+- A 3D version is included as an optional extra.
