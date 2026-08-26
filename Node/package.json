@@ -1,0 +1,13 @@
+{
+  "name": "node-files",
+  "version": "1.0.0",
+  "description": "A cat-like utility that prints files and URLs to the console or a file.",
+  "main": "step1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}

@@ -1,0 +1,48 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  color: #fff;
+  background: #35654d; /* card-table green */
+  text-align: center;
+}
+
+h1 { margin-bottom: 0.25rem; }
+p { margin: 0.5rem 0; }
+
+button {
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 6px;
+  background: #2ecc71;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  padding-left: 40px;
+}
+
+.card {
+  width: 120px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  background: #fff;
+  margin-left: -40px;                 /* overlap the previous card */
+  transform: rotate(var(--tilt, 0deg)); /* the per-card tilt */
+  transform-origin: bottom center;    /* pivot from the bottom, like a real fan */
+  transition: transform 0.15s ease;
+}
+
+/* on hover, straighten and lift the card so you can read it */
+.card:hover {
+  transform: rotate(0deg) translateY(-24px);
+  z-index: 10;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Number Facts</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Number Facts</h1>
+
+  <section>
+    <h2>Step 1: One fact about my favorite number (<span id="fav">7</span>)</h2>
+    <p id="single-fact">Loading...</p>
+  </section>
+
+  <section>
+    <h2>Step 2: Facts about multiple numbers (one request)</h2>
+    <ul id="range-facts"></ul>
+  </section>
+
+  <section>
+    <h2>Step 3: Four facts about my favorite number</h2>
+    <ul id="four-facts"></ul>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="numbers.js"></script>
+</body>
+</html>

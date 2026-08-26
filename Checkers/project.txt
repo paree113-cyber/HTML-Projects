@@ -1,0 +1,76 @@
+# 2D Checkers Project Outline
+
+This version of the project is for a JavaScript and DOM manipulation fundamentals unit.
+
+The focus should be on:
+- click events
+- selecting elements
+- changing classes
+- updating text on the page
+- moving elements on the screen
+- removing elements from the DOM
+
+The focus should not be on:
+- advanced game algorithms
+- forced jumps
+- multi-jumps
+- CPU opponent logic
+- full checkers rule enforcement
+
+Students should be given:
+- the HTML layout
+- the CSS styling
+- the board already visible on the page
+- pieces already rendered on the board
+- score display elements
+- turn display elements
+- reset button
+- starter JavaScript with DOM references and variable setup
+
+Students should complete these 10 tasks:
+
+1. Select a piece
+- When a player clicks one of their own pieces, highlight it.
+- Only one piece can be selected at a time.
+
+2. Show which piece is selected
+- Update a message on the page when a piece is selected.
+- Example: "Player 1 selected a piece."
+
+3. Move a selected piece
+- Click a board square to move the selected piece.
+- Use DOM manipulation to change the piece location on the board.
+
+4. Prevent moving onto an occupied square
+- If a square already has a piece, do not allow the move.
+- Show a short message to the player.
+
+5. Switch turns
+- After a successful move, switch from Player 1 to Player 2.
+- Update the turn message on the page.
+
+6. Block the wrong player from moving
+- Only the current player's pieces should be selectable.
+- Ignore clicks on the other player's pieces.
+
+7. Capture a piece
+- Remove an opponent piece from the board when a capture happens.
+- This should be handled with simple DOM manipulation.
+
+8. Keep score
+- Increase the correct player's score after a capture.
+- Update the score display immediately.
+
+9. King a piece
+- When a piece reaches the far side, add a king class.
+- The king should look different visually.
+
+10. End the game
+- When one player has no pieces left, show a winner message.
+- Stop further moves once the game is over.
+
+Notes for teacher:
+- Frame this as "finish an interactive checkers game interface" instead of "implement full checkers logic."
+- Keep the project centered on DOM interaction, not algorithmic problem solving.
+- A good starter version should already render the board and pieces before students begin.
+- More advanced logic can be removed later in a separate branch.

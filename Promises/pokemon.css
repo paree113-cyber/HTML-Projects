@@ -1,0 +1,58 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  margin: 2rem;
+  color: #1a1a2e;
+  background: #f4f4f7;
+  text-align: center;
+}
+
+h1 { margin-bottom: 0.25rem; }
+
+button {
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 6px;
+  background: #ef5350;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.hidden { display: none; }
+
+#pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.poke-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 220px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.poke-card img {
+  width: 120px;
+  height: 120px;
+  image-rendering: pixelated; /* keeps the sprite crisp when scaled */
+}
+
+.poke-card h2 {
+  text-transform: capitalize;
+  margin: 0 0 0.5rem;
+  color: #ef5350;
+}
+
+.poke-card p {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.4;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giphy V2</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>GIPHY Search</h1>
+      <p>Search for your favorite GIFs!</p>
+    </header>
+
+    <div class="toolbar">
+      <button id="view-saved-btn">My Saved GIFs</button>
+      <button id="view-search-btn" class="hidden">Back to Search</button>
+    </div>
+
+    <fieldset id="options" class="options">
+      <legend>Options</legend>
+      <label><input type="radio" name="mode" value="random" checked /> Random</label>
+      <label><input type="radio" name="mode" value="paginate" /> Paginate</label>
+      <label><input type="radio" name="mode" value="synonyms" /> Include Synonyms</label>
+    </fieldset>
+
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Enter a keyword..." autocomplete="off" />
+      <button type="submit" id="search-btn">Search</button>
+      <button type="button" id="more-btn" class="hidden">Load More</button>
+    </form>
+
+    <p id="loading-message" class="hidden">Loading...</p>
+    <p id="error-message" class="msg-error"></p>
+    <p id="no-results-message" class="hidden">No GIFs found. Try another term.</p>
+
+    <div id="results" class="results"></div>
+  </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="config.js"></script>
+  <script src="synonyms.js"></script>
+  <script src="storage.js"></script>
+  <script src="api.js"></script>
+  <script src="ui.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
